@@ -1,0 +1,64 @@
+<!-- file name  index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title> JAn 6 Actiivty </title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <h1>Hello, world!</h1>
+  <p> jan 6 </p>
+
+
+
+
+    <h1>Contact Form</h1>
+
+  <form>
+    <label>Name:</label><br>
+    <input type="text"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email"><br><br>
+
+    <label>Message:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+ 
+  <div id="output"></div>
+
+  <h1>Image Preview</h1>
+
+<img src="image.png" alt="My Image">
+
+
+<script>
+  const form = document.querySelector('form');
+  const output = document.createElement('div');
+  form.after(output);
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent form from submitting
+
+    const name = form.querySelector('input[type="text"]').value;
+    const email = form.querySelector('input[type="email"]').value;
+    const message = form.querySelector('textarea').value;
+
+    output.innerHTML = `
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Message:</strong> ${message}</p>
+    `;
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+/* file name: style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+  max-width: 700px;
+  margin: 10px auto;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cb0b0b;
+  padding: 0 15px;
+}
+
+/* Form box */
+form {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-right: 50px;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+img {
+  display: block;
+  max-width:50%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
