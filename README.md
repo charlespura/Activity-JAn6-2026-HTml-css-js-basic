@@ -45,7 +45,7 @@ project-root/
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/charlespura/Activity-JAn6-2026-HTml-css-js-basic.git
    ```
 
 2. Open `index.html` in your browser.
@@ -77,6 +77,4 @@ You can add a live demo link here once you deploy the project, e.g., GitHub Page
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the MIT License.
