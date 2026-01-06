@@ -1,9 +1,9 @@
 # Contact Form & Image Preview Project
 
-<img width="800" height="500" alt="Screenshot 2026-01-06 at 8 03 23 PM" src="https://github.com/user-attachments/assets/c03bc3e4-761d-46a8-be3a-e123ec62c343" />
+<img width="500" height="500" alt="Screenshot 2026-01-06 at 8 03 23 PM" src="https://github.com/user-attachments/assets/c03bc3e4-761d-46a8-be3a-e123ec62c343" />
 
 Download Zip 
-<img width="200" height="200" alt="Screenshot 2026-01-06 at 8 07 43 PM" src="https://github.com/user-attachments/assets/7093f6ed-8018-4e6b-80e9-ff294f8ef6cd" />
+<img width="400" height="400" alt="Screenshot 2026-01-06 at 8 07 43 PM" src="https://github.com/user-attachments/assets/7093f6ed-8018-4e6b-80e9-ff294f8ef6cd" />
 
 
 A simple web page featuring a contact form with live output display and an image preview. This project demonstrates basic HTML, CSS, and JavaScript for handling form submissions and dynamic content rendering.
