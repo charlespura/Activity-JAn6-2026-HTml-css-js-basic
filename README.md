@@ -76,7 +76,7 @@ project-root/
 
 You can add a live demo link here once you deploy the project, e.g., GitHub Pages:
 
-[View Live Demo](#)
+[View Live Demo](https://charlespura.github.io/Activity-JAn6-2026-HTml-css-js-basic/)
 
 ---
 
